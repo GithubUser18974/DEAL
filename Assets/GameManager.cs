@@ -206,10 +206,11 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(3);
     }
     public GameObject[] selecItems;
+    public GameObject[] textSales;
     public void CountSelection(GameObject item)
     {
-        SalesState(false);
-        item.SetActive(true);
+       // SalesState(false);
+        //item.SetActive(true);
     }
     
     public void SetNumberOfItems(int sale)
@@ -222,11 +223,20 @@ public class GameManager : MonoBehaviour
     {
         int val = currCampgain * currSale * currRatio / 100;
         WTFt.text = "" + val;
+        SalesTextState(false) ;
+        WTFt.transform.parent.gameObject.SetActive(true);
     }
   public void SalesState(bool state)
     {
         currSale = -1;
         foreach (GameObject i in selecItems)
+        {
+            i.SetActive(state);
+        }
+    }
+    public void SalesTextState(bool state)
+    {
+        foreach (GameObject i in textSales)
         {
             i.SetActive(state);
         }
