@@ -40,6 +40,7 @@ public class GameManager : MonoBehaviour
     int currCampgain = 8000;
     int currRatio = 8;
     bool isCodeCorrect = false;
+    [Header("Should be used by Hardware (Ahmed) ")]
     bool canReceiveInputFromHardware=false;
     private void Start()
     {

@@ -74,7 +74,7 @@ public class Submit : MonoBehaviour
         Save(Code, Names, Area, SalesmanName, Shops, Date, CampgainType, No_campgain);
 
 
-        Invoke("restart", 4);
+        Invoke("restart", 7);
 
     }
     private void HandleUploadResult(string result)
