@@ -211,11 +211,17 @@ public class GameManager : MonoBehaviour
         SalesState(false);
         item.SetActive(true);
     }
+    
     public void SetNumberOfItems(int sale)
     {
         currSale = sale;
         int val = currCampgain * currSale * currRatio / 100;
         SetDealValue(val);
+    }
+    public void SetNumberOfItem_UI(Text WTFt)
+    {
+        int val = currCampgain * currSale * currRatio / 100;
+        WTFt.text = "" + val;
     }
   public void SalesState(bool state)
     {
