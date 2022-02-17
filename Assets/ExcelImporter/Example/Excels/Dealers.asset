@@ -1,0 +1,5343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e969b0c66acd65743b86c757b6e0acac, type: 3}
+  m_Name: Dealers
+  m_EditorClassIdentifier: 
+  Main:
+  - Code: 345476
+    Name: SMART COLORS CENTER FOR PAINTS AND DECOR - AHMED SAMEH EL KOTB
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 44566
+    Status: Active
+    category: 0
+  - Code: 345605
+    Name: EL NESR FOR MODERN BUILDING MATERIALS AND DECOR
+    Area: Cairo
+    SalesmanName: SALAH & AYMAN
+    Shops: 1
+    Date: 44572
+    Status: Active
+    category: 0
+  - Code: 345614
+    Name: AWLAD OMRAN - SABAH BAKR
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 44572
+    Status: Active
+    category: 0
+  - Code: 345899
+    Name: EDGE DESIGN FOR PAINTS
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 44584
+    Status: Active
+    category: 0
+  - Code: 345926
+    Name: TOLAN FOR PAINTS- ABDELNASER NAZMY
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 1
+    Date: 44585
+    Status: Active
+    category: 0
+  - Code: 345951
+    Name: RAMY RADWAN FOR PAINTS
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 1
+    Date: 44586
+    Status: Active
+    category: 0
+  - Code: 346071
+    Name: COLOR CODE
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 44591
+    Status: Active
+    category: 0
+  - Code: 346073
+    Name: SHATORA FOR PAINTS-SHAIMAA AL ARABY
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 44591
+    Status: Active
+    category: 0
+  - Code: 346075
+    Name: PYRAMIDS FOR PAINTS
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 44591
+    Status: Active
+    category: 0
+  - Code: 346133
+    Name: EL RADWAN FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOSTAFA &ASHRAF
+    Shops: 1
+    Date: 44594
+    Status: Active
+    category: 0
+  - Code: 345140
+    Name: EL AKSA FOR SUPPLIES
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 44551
+    Status: Active
+    category: 0
+  - Code: 332003
+    Name: TSC FOR COMMERCIAL AGENCIES
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 44200
+    Status: Active
+    category: 0
+  - Code: 332163
+    Name: AL RADWAN FOR PAINTS- MOH. MOHSEN
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 44206
+    Status: Active
+    category: 0
+  - Code: 332605
+    Name: AHMED EL SAYED ABDEL GAWAD
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 44221
+    Status: Active
+    category: 0
+  - Code: 344841
+    Name: ALAM EL ALWAN FOR PAINTS - EL SAYED ZAKARYA EL SAYED
+    Area: West
+    SalesmanName: AbdelKader & Moustafa
+    Shops: 1
+    Date: 44538
+    Status: Active
+    category: 0
+  - Code: 343793
+    Name: GERGES FAWZY MAREED
+    Area: Upper
+    SalesmanName: Mohamed Thabet
+    Shops: 1
+    Date: 44500
+    Status: Active
+    category: 0
+  - Code: 344106
+    Name: EL KHEDAWY FOR PAINTS
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 44510
+    Status: Active
+    category: 0
+  - Code: 343336
+    Name: DEGLA FOR PAINTS AND DECOR
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 44482
+    Status: Active
+    category: 0
+  - Code: 334105
+    Name: EL WAKEEL - MARIAM ISKANDAR
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 44271
+    Status: Active
+    category: 0
+  - Code: 342944
+    Name: MOHAMED SHABAAN EL HELEWY
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 1
+    Date: 44468
+    Status: Active
+    category: 0
+  - Code: 341655
+    Name: KHALED EMAM FOR PAINTS
+    Area: East
+    SalesmanName: GHONIM & AHMED
+    Shops: 1
+    Date: 44425
+    Status: Active
+    category: 0
+  - Code: 341650
+    Name: EL SAAD FOR PAINTS
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 44425
+    Status: Active
+    category: 0
+  - Code: 341657
+    Name: AL WESSAM FOR PAINTS
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 44425
+    Status: Active
+    category: 0
+  - Code: 341913
+    Name: EMAAR FOR DECOR AND PAINTS - ABDRABO BAKHIT
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 44433
+    Status: Active
+    category: 0
+  - Code: 342642
+    Name: MODERN MARAGHY FOR PAINTS
+    Area: West
+    SalesmanName: ABDELAZIZ & MOHAMED
+    Shops: 1
+    Date: 44461
+    Status: Active
+    category: 0
+  - Code: 339186
+    Name: STAR LIGHT FOR PAINTS
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 44349
+    Status: Active
+    category: 0
+  - Code: 340171
+    Name: AL-BADR FOR PAINTS
+    Area: Cairo
+    SalesmanName: SALAH & AYMAN
+    Shops: 1
+    Date: 44382
+    Status: Active
+    category: 0
+  - Code: 340246
+    Name: MODERN HOUSE - YOUSSEF EL AREED
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 44383
+    Status: Active
+    category: 0
+  - Code: 340527
+    Name: EL DAWLIA FOR PAINTS
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 44388
+    Status: Active
+    category: 0
+  - Code: 339179
+    Name: MAZEED ALY MAZEED
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 1
+    Date: 44349
+    Status: Active
+    category: 0
+  - Code: 338750
+    Name: EL HAYTHAM FOR PAINTS
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 44335
+    Status: Active
+    category: 0
+  - Code: 338449
+    Name: AL TAAMEER FOR TRADING (ALLAM)
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 44325
+    Status: Active
+    category: 0
+  - Code: 338555
+    Name: MAGIC COLOR
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 1
+    Date: 44327
+    Status: Active
+    category: 0
+  - Code: 334496
+    Name: FUTURE FOR PAINTS
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 1
+    Date: 44283
+    Status: Active
+    category: 0
+  - Code: 334099
+    Name: AL ETIHAD CORPORATION
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 44271
+    Status: Active
+    category: 0
+  - Code: 333644
+    Name: AL ZEIN FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOSTAFA &ASHRAF
+    Shops: 1
+    Date: 44256
+    Status: Active
+    category: 0
+  - Code: 333722
+    Name: ART DECOR FOR PAINT
+    Area: Cairo
+    SalesmanName: SALAH & AYMAN
+    Shops: 2
+    Date: 44258
+    Status: Active
+    category: 0
+  - Code: 333806
+    Name: SEAMAN
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 1
+    Date: 44262
+    Status: Active
+    category: 0
+  - Code: 333852
+    Name: ELAF CENTER  FOR  PAINTS- Mohamed Ibrahim Hassan
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 44264
+    Status: Active
+    category: 0
+  - Code: 345683
+    Name: AL MASREYA FOR PAINTS - MINA SOLHY GHALY
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 44238
+    Status: Active
+    category: 0
+  - Code: 332607
+    Name: KARIM HAMDY ABDEL NABY
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 44221
+    Status: Active
+    category: 0
+  - Code: 332834
+    Name: TIBA FOR PAINTS
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 44229
+    Status: Active
+    category: 0
+  - Code: 332238
+    Name: EL MOSTAKBAL FOR PAINTS- RAMZY LAWENDY
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 44208
+    Status: Active
+    category: 0
+  - Code: 323318
+    Name: EL HABASHA
+    Area: West
+    SalesmanName: ABDELAZIZ & MOHAMED
+    Shops: 1
+    Date: 43842
+    Status: Active
+    category: 0
+  - Code: 323644
+    Name: SKY COLOR FOR PAINTS
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 1
+    Date: 43853
+    Status: Active
+    category: 0
+  - Code: 323623
+    Name: BEIT EL KHEBRA
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 1
+    Date: 43852
+    Status: Active
+    category: 0
+  - Code: 323620
+    Name: EL MASRYA
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 43852
+    Status: Active
+    category: 0
+  - Code: 323840
+    Name: EL EMAN
+    Area: East
+    SalesmanName: GHONIM & AHMED
+    Shops: 1
+    Date: 43860
+    Status: Active
+    category: 0
+  - Code: 330324
+    Name: EL ABBASSY FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 44132
+    Status: Active
+    category: 0
+  - Code: 330091
+    Name: AL RAWY FOR PAINTS
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 44130
+    Status: Active
+    category: 0
+  - Code: 330023
+    Name: MARKAZ EL MAGD FOR PAINTS - HAMDI ABO EL MAGD
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 44126
+    Status: Active
+    category: 0
+  - Code: 329997
+    Name: EBAD EL RAHMAN FOR PAINTS-WAHEED THABET ABDELMOHSEN
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 44125
+    Status: Active
+    category: 0
+  - Code: 329479
+    Name: AL MOSTAFA FOR PAINTS- Mohamed Kamal Eldin Hemdan
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 44104
+    Status: Active
+    category: 0
+  - Code: 329736
+    Name: ISLAM MOHAMED ISLAM
+    Area: Upper
+    SalesmanName: LATIF & AHMED
+    Shops: 1
+    Date: 44116
+    Status: Active
+    category: 0
+  - Code: 329289
+    Name: EL ROWEIY AND EL SABTYA SHOPS FOR TRADING
+    Area: Cairo
+    SalesmanName: SALAH & AYMAN
+    Shops: 1
+    Date: 44098
+    Status: Active
+    category: 0
+  - Code: 326990
+    Name: EL TAWEELY FOR TRADE AND PAINTS
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 43996
+    Status: Active
+    category: 0
+  - Code: 327359
+    Name: ALAM EL DAHANAT
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 2
+    Date: 44010
+    Status: Active
+    category: 0
+  - Code: 325323
+    Name: AMR MOHAMED ABD ELHAKEEM ALY
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 43915
+    Status: Active
+    category: 0
+  - Code: 326629
+    Name: AL AMER FOR PAINTS
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 43982
+    Status: Active
+    category: 0
+  - Code: 325229
+    Name: ALWAN FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 43912
+    Status: Active
+    category: 0
+  - Code: 325197
+    Name: MASHAAL FOR MODERN PAINTS - AHMED MASHAAL
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 1
+    Date: 43909
+    Status: Active
+    category: 0
+  - Code: 325203
+    Name: ASHRY FOR PAINTS
+    Area: West
+    SalesmanName: AbdelKader & Moustafa
+    Shops: 1
+    Date: 43909
+    Status: Active
+    category: 0
+  - Code: 324948
+    Name: BRIGHT
+    Area: West
+    SalesmanName: ABDELAZIZ & MOHAMED
+    Shops: 1
+    Date: 43901
+    Status: Active
+    category: 0
+  - Code: 324941
+    Name: MAMDOUH MAHMOUD BDEWY
+    Area: Upper
+    SalesmanName: Mohamed Thabet
+    Shops: 1
+    Date: 43901
+    Status: Active
+    category: 0
+  - Code: 324766
+    Name: NEW FARAONEYA FOR PAINTS
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 43894
+    Status: Active
+    category: 0
+  - Code: 324656
+    Name: MOHAMED MORSY ABDEL LATIF
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 43891
+    Status: Active
+    category: 0
+  - Code: 324292
+    Name: ABO HAMAMA FOR PAINTS(ABEER HOSNY)
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 43878
+    Status: Active
+    category: 0
+  - Code: 324520
+    Name: MOSTAFA IBRAHIM HASSAN GAMAL
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 43886
+    Status: Active
+    category: 0
+  - Code: 324106
+    Name: AL DAR FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 43871
+    Status: Active
+    category: 0
+  - Code: 257925
+    Name: ALAM EL ALWAN
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 41285
+    Status: Active
+    category: 0
+  - Code: 323901
+    Name: EMAR ALTORKY FOR PAINTS
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 43863
+    Status: Active
+    category: 0
+  - Code: 323452
+    Name: EL SAFWA FOR PAINTS
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 43846
+    Status: Active
+    category: 0
+  - Code: 323651
+    Name: HAMMAD MOHAMED AHMED
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 43853
+    Status: Active
+    category: 0
+  - Code: 323166
+    Name: KOBEISY CENTER FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 43836
+    Status: Active
+    category: 0
+  - Code: 323161
+    Name: SHABANA STORES
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 5
+    Date: 43836
+    Status: Active
+    category: 0
+  - Code: 315108
+    Name: EL NOZHA
+    Area: Cairo
+    SalesmanName: MOSTAFA &ASHRAF
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 314906
+    Name: EL AMANA FOR DECOR
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 315966
+    Name: MOHAMED EWEES MOHAMED YOUSEF EL ASHRAM
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 317713
+    Name: RETOOSH FOR PAINTS
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 322690
+    Name: DIAMOND DESIGN FOR GENERAL CONTRACTING
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 43807
+    Status: Active
+    category: 0
+  - Code: 322492
+    Name: DWEDAR FOR PAINTS
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 43797
+    Status: Active
+    category: 0
+  - Code: 322495
+    Name: EL GOLF FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 43797
+    Status: Active
+    category: 0
+  - Code: 322383
+    Name: WAHDAN FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 43793
+    Status: Active
+    category: 0
+  - Code: 318717
+    Name: MOHAMED AHMED HAMMAD-ABO OMAR
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 2
+    Date: 43699
+    Status: Active
+    category: 0
+  - Code: 319568
+    Name: OUDA COLORS FOR PAINTS
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 43717
+    Status: Active
+    category: 0
+  - Code: 319814
+    Name: PLANET FOR PAINTS
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 1
+    Date: 43726
+    Status: Active
+    category: 0
+  - Code: 321427
+    Name: AHMED EL SAYED FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 43755
+    Status: Active
+    category: 0
+  - Code: 321553
+    Name: SAYED MOHAMED ISMAEL
+    Area: Upper
+    SalesmanName: LATIF & AHMED
+    Shops: 1
+    Date: 43760
+    Status: Active
+    category: 0
+  - Code: 317950
+    Name: AL KAYSAR FOR PAINTS
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 318034
+    Name: IN COLOR FOR PAINTS
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 317427
+    Name: MODERN HOUSE
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 316002
+    Name: LAMASAT
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 316774
+    Name: MOHAMED MAMDOUH FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 316777
+    Name: EL SAYAD FOR PAINTS
+    Area: West
+    SalesmanName: ABDELAZIZ & MOHAMED
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 315968
+    Name: AL ANIS NOZHA
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 315974
+    Name: HOSSAM MOHAMED MOHAMED
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 311877
+    Name: EL KASR DESHNA- SAYED MOHAMED SAYED
+    Area: Upper
+    SalesmanName: Mohamed Thabet
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 311608
+    Name: PALLETTE
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 316114
+    Name: EL MOHANDES FOR PAINTS
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 311874
+    Name: EL HELW FOR DECORATION - October
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 310473
+    Name: EL ARABY FOR PAINTS
+    Area: Cairo
+    SalesmanName: TANTAWY & MOSTAFA
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 311839
+    Name: Brothers
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 316007
+    Name: EL ZAHRAA-MOHAMED KISHK
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 2
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 311415
+    Name: EBDAA CENTER FOR PAINTS
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 315413
+    Name: AL ISLAMIA FOR PAINTS
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 2
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 315993
+    Name: EL NEMR FOR PAINTS
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 311343
+    Name: CONTRAST FOR PAINTS
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 311155
+    Name: EL FATTIMIA FOR PAINTS
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 314615
+    Name: AL MOHAMADEYA FOR PAINTS
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 310657
+    Name: TOP COLORS FOR PAINTS
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 317096
+    Name: HIGH BUILD FOR TRADING & CONSTRUCTION
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 3
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 315492
+    Name: MOHAMED MAHDY
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 316836
+    Name: HAPPY HOME FOR PAINTS
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 310854
+    Name: AL ZAHRAA FOR PAINTS
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 3
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 311434
+    Name: EL OMDA FOR PAINTS AND DECORATIONS
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 311418
+    Name: MOHAMED EL SEROGY - MOHAMED GAMAL SAYED
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 311019
+    Name: AWLAD ATWAY - AMAL REFAAT
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 310851
+    Name: MY HOME FOR PAINTS - MOHAMED GAMAL MAHMOUD ALI
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 311411
+    Name: MORES FOUAD NAGEEB
+    Area: Upper
+    SalesmanName: Mohamed Thabet
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 310840
+    Name: EL HUSSIENY FOR SUPPLIES AND CONTRACTING
+    Area: West
+    SalesmanName: ELMALLAH & AHMED
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 316135
+    Name: 'LOON GEDED-NEW COLOR '
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 308947
+    Name: LON TIME
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 1
+    Date: 2019
+    Status: Active
+    category: 0
+  - Code: 305246
+    Name: SWEDISH FOR DECORATION
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 306715
+    Name: MIRAGE FOR PAINTS
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 305257
+    Name: AL ABD FOR PAINTS
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 2
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 302469
+    Name: AL ZAYED - AMR SALAH FAHMY
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 302860
+    Name: AHMED ABD EL KHALEK ABD EL KHALEK
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 309711
+    Name: SMART COLOR
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 304525
+    Name: EL MASA
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 310406
+    Name: EL SALAM
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 302296
+    Name: ALAM SEDKY /DEC
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 2
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 303256
+    Name: EL HASSAN FOR PAINTS - WALID HASSAN
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 2
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 302102
+    Name: JOTUN FOR PAINTS - HEKMAT SAMY REYAD
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 306659
+    Name: "TAWEELY FOR PAINTS \u2013 OCTOBER"
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 303775
+    Name: GAMAL EL DIN ZAKARIA
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 305315
+    Name: COLOR HOUSE FOR PAINTS - MAMDOUH MOHAMED HASABALLAH
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 305416
+    Name: MAHMOUD ALI AHMED
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 302497
+    Name: IMAN MAHMOUD ATTA ALI
+    Area: Upper
+    SalesmanName: Mohamed Thabet
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 301948
+    Name: ISLAM MAHMOUD MEGALY
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 3
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 305414
+    Name: ALAM EL ALWAN - GEHAN SELIM
+    Area: West
+    SalesmanName: ABDELAZIZ & MOHAMED
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 308570
+    Name: AHMED MOUSTAFA EL NAHAS ABBAS
+    Area: Upper
+    SalesmanName: ABUKHALIFA & ISLAM
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 302292
+    Name: AHMED ABU EL ANIN MOUSTAFA ABU SHEHATA
+    Area: West
+    SalesmanName: AbdelKader & Moustafa
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 302294
+    Name: AL SHAMS FOR PAINTS
+    Area: West
+    SalesmanName: AbdelKader & Moustafa
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 307951
+    Name: EL SADA COLORS FOR PAINTS - SALAH EL-DIN MOSTAFA
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 307955
+    Name: HARMONY - MAHMOUD KHALIL
+    Area: West
+    SalesmanName: ABDELAZIZ & MOHAMED
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 308162
+    Name: EL RAYA GROUP
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 309741
+    Name: BEDAYA
+    Area: West
+    SalesmanName: ELMALLAH & AHMED
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 310130
+    Name: AL LAMSA
+    Area: Cairo
+    SalesmanName: TANTAWY & MOSTAFA
+    Shops: 1
+    Date: 2018
+    Status: Active
+    category: 0
+  - Code: 299305
+    Name: EL SHAFAAI - ATEF MOHAMED MOHAMED
+    Area: Cairo
+    SalesmanName: ABUZEID & AHMED
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 287385
+    Name: OHED FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 289085
+    Name: MAGIC HOME FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 297340
+    Name: FINISH FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 300693
+    Name: EL MARWA FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 287706
+    Name: ALPHA EGYPT FOR TRADING
+    Area: Cairo
+    SalesmanName: ABUZEID & AHMED
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 288326
+    Name: EL SHEROUK FOR PAINTS
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 288754
+    Name: AL KARAM FOR IMPORT
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 301421
+    Name: EL BASEL FOR PAINTS
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 298421
+    Name: EL BIET FOR PAINTS - ISLAM GENIDY
+    Area: Cairo
+    SalesmanName: SALAH & AYMAN
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 298260
+    Name: EL WERDANY FOR PAINTS
+    Area: Cairo
+    SalesmanName: SALAH & AYMAN
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 300309
+    Name: EL SALAM COLOR
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 300691
+    Name: RAMY CENTER - RAMY FADL ALLAH ESKANDAR
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 301419
+    Name: EL YUSR FOR MODERN PAINTS - MOSTAFA NASR
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 300695
+    Name: EL MOSTAKBAL FOR PAINTS
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 301277
+    Name: EL EMAN FOR PAINTS
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 298259
+    Name: KARMY
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 288822
+    Name: MOHAMED ABD ELSHAFY
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 297560
+    Name: SALAMA RAHAL FOR PAINTS
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 299437
+    Name: HEGAZ CENTER
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 299304
+    Name: ALAM EL DECOR
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 290367
+    Name: ABU ZAID FOR PAINTS
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 291354
+    Name: AL IMBABY FOR PAINTS
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 301598
+    Name: ALWAN DECOR FOR NEW PAINTS
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 291419
+    Name: AL ALAMIA FOR PAINTS
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 287355
+    Name: EL GENDY CENTER FOR PAINTS
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 288666
+    Name: EL DOKLA INSTITUTION FOR PAINTS AND DECORATIONS
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 298253
+    Name: MOHAMED ABDEL HAFIZ KHATTAB FOR PAINTS
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 287703
+    Name: PRESTIGE FOR PAINTS - AMR MOHAMED MAHRAN
+    Area: East
+    SalesmanName: GHONIM & AHMED
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 289080
+    Name: OLA MOHAMED ATTA
+    Area: Cairo
+    SalesmanName: SALAH & AYMAN
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 289292
+    Name: ZAMZAM
+    Area: East
+    SalesmanName: ESSAM & MOHAMED
+    Shops: 2
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 298554
+    Name: EL BARBARY FOR PAINTS
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 299765
+    Name: AL MASREYA FOR PAINTS
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 300409
+    Name: AL YOUSR FOR PAINTS
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 301464
+    Name: MADINET AL ALWAN FOR PAINTS
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 305209
+    Name: EL MAHABA FOR PAINTS AND DECORATION
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 301596
+    Name: EL ZAHABY FOR PAINTS
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 288331
+    Name: HOME DESIGN FOR DECOR - AYMAN MOHSEN AYMAN
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 298716
+    Name: DESIGN FOR PAINTS AND DECORATIONS - TAREK IBRAHIM ABDEL HADY
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 298148
+    Name: AL FAROUK FOR PAINTS
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 300934
+    Name: NEW HOME FOR PAINTS
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 299586
+    Name: HORUS FOR PAINTS AND DECORATION
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 288690
+    Name: ZATY FOR PAINTS AND DECORATION - EL SAYED IBRAHIM ABO HADIDA
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 300584
+    Name: EL ASRY FOR PAINTS - ABDEL FATAH IBRAHIM HASSAN
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 288450
+    Name: EL QASER FOR PAINTS
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 288501
+    Name: EL REWAEY FOR PAINTS - MOHAMED RAMADAN MAHMOUD YOUSEF
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 287715
+    Name: EBDAA FOR PAINTS - MAHMOUD TONY FAHIM MOHAMED
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 288276
+    Name: EL GHANAYM FOR PAINTS - ALI MOHAMED ALI AHMED
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 300120
+    Name: EL WALLY FOR PAINTS - WALLY HAMDAD ALI METWALLY
+    Area: Upper
+    SalesmanName: LATIF & AHMED
+    Shops: 2
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 300581
+    Name: TAHA EZZ ELDIN OMRAN
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 287827
+    Name: AWLAD ABO ELSHIEKH - AMNA GAAFAR HASSAN
+    Area: Upper
+    SalesmanName: Mohamed Thabet
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 287288
+    Name: MAGDY FAROUK MOHAMED
+    Area: Upper
+    SalesmanName: ABUKHALIFA & ISLAM
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 296697
+    Name: EL QOSIYA FOR PAINTS - MOHAMED AHMED TAHA
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 299870
+    Name: AMR MOHAMED AHMED ALI
+    Area: Upper
+    SalesmanName: Mohamed Thabet
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 299584
+    Name: EMAAR FOR PAINTS
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 298024
+    Name: NAWAR FOR PAINTS - KHALED FAROUK
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 289317
+    Name: EL HANA CLASS FOR PAINTS
+    Area: West
+    SalesmanName: AbdelKader & Moustafa
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 290362
+    Name: MOHAMED MAHMOUD MOHAMED AHMED EL SAMAHY
+    Area: West
+    SalesmanName: ABDELAZIZ & MOHAMED
+    Shops: 1
+    Date: 2017
+    Status: Active
+    category: 0
+  - Code: 285145
+    Name: M&H GROUP FOR PAINTS
+    Area: Cairo
+    SalesmanName: SALAH & AYMAN
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 278943
+    Name: AWAD ALI MAHMOUD
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 281075
+    Name: REYAD FOR PAINTS AND DECOR
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 282893
+    Name: SMART WAVE FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 283113
+    Name: ARCO FOR PAINTS - MUSTAFA FAROUK ABDEL AZIZ
+    Area: Cairo
+    SalesmanName: TANTAWY & MOSTAFA
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 279186
+    Name: EL MOHANDES FOR PAINTS - ZAKARIA YEHIA ZAKARIA
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 2
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 282529
+    Name: CITY COLOR - NOURA RIZQ
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 278188
+    Name: EL TAWELY MENIAT ELNASR
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 278191
+    Name: AL ASKANDARANY
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 278213
+    Name: EL MOTAHDA FOR PAINTS - AHMED ABDEL KHALEK
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 278545
+    Name: BAIT EL DECORE
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 2
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 279422
+    Name: BMC FOR PAINTS
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 280350
+    Name: EL BADR - OSAMA GNEDY
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 280788
+    Name: ALWAN FOR DECORE
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 282123
+    Name: SELECTION FOR PAINTS
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 2
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 282320
+    Name: ALAM AL ALWAN - SADEK GALAL SADEK
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 282434
+    Name: EL MUSTAFA
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 282478
+    Name: AWLAD ELSHIEKH FOR DECORE - SABRY ELSAYED ISMAIEL
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 277809
+    Name: LEADERS FOR TRADING AND SUPPLIES
+    Area: East
+    SalesmanName: GHONIM & AHMED
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 279006
+    Name: DAHAB FOR ADVANCED PAINTS
+    Area: East
+    SalesmanName: ESSAM & MOHAMED
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 279562
+    Name: SHARKS
+    Area: East
+    SalesmanName: GHONIM & AHMED
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 282469
+    Name: SABRY ABO ELHAG FOR PAINTS
+    Area: East
+    SalesmanName: GHONIM & AHMED
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 282870
+    Name: EL MOHANDES - LELIAN FEKRY
+    Area: East
+    SalesmanName: GHONIM & AHMED
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 285143
+    Name: SAMY EL BARY
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 277754
+    Name: AL KILANY FOR PAINTS- ABD ELHAKEEM ALI HAGGAG
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 279398
+    Name: LAMOUR FOR PAINTS AND DECORATION
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 279995
+    Name: MAGIC TOUCH FOR PAINTS AND DECORATION
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 282061
+    Name: AL SAFA
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 286071
+    Name: NEW ASSUIT - AWATEF SAID ABD ELAAL
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 287229
+    Name: EKHWAN MOURAD - MOHEB SOBHY
+    Area: Upper
+    SalesmanName: Mohamed Thabet
+    Shops: 2
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 287024
+    Name: SALAMA HUSSIEN MOHAMED
+    Area: Upper
+    SalesmanName: ABUKHALIFA & ISLAM
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 277757
+    Name: MODERN COLORS FOR PAINTS (MANAL HASHEM ABD EL GAWAD)
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 278547
+    Name: EMAD SHAWKY EBIED
+    Area: Upper
+    SalesmanName: Mohamed Thabet
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 278687
+    Name: SALEH SEDDEK ABD ELHAFEZ
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 278748
+    Name: EL MOHANDES FOR PAINTS (MOHAMED AWAD ABDEL HADY MOHAMED)
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 278912
+    Name: ALWAN - MOUSTAFA AHMED MAHMOUD
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 279457
+    Name: BEKHIET GARS ABDEL NAEEM
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 281359
+    Name: ADEL SABRY
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 2
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 282352
+    Name: EL HAMD - MOHAMED FARAG
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 287196
+    Name: SAMIA ABDEL MAWLA AHMED - EL MOHANDESEEN
+    Area: West
+    SalesmanName: ABDELAZIZ & MOHAMED
+    Shops: 2
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 279965
+    Name: AHMED ESSA ELGHOBARI
+    Area: West
+    SalesmanName: AbdelKader & Moustafa
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 277904
+    Name: NASER KAMAL SAAD
+    Area: West
+    SalesmanName: ABDELAZIZ & MOHAMED
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 278573
+    Name: SABRIN RAGAB EL AWADY
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 279359
+    Name: ART VISION - ASHOR RAGAB
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 279963
+    Name: EL HAYAH
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 3
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 280067
+    Name: ANAS FOR PAINTS - ABDEL MAJEED AHMED ELSAYED
+    Area: West
+    SalesmanName: ABDELAZIZ & MOHAMED
+    Shops: 1
+    Date: 2016
+    Status: Active
+    category: 0
+  - Code: 280313
+    Name: KAZA LOON
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 1
+    Date: 2016
+    Status: To be expired
+    category: 0
+  - Code: 281785
+    Name: AL MOHTASEB
+    Area: West
+    SalesmanName: ELMALLAH & AHMED
+    Shops: 1
+    Date: 2016
+    Status: To be expired
+    category: 0
+  - Code: 257673
+    Name: HELIOPOLIS
+    Area: Cairo
+    SalesmanName: SALAH & AYMAN
+    Shops: 3
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 258899
+    Name: ALI ABD ELKADER EL BAKRY
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257674
+    Name: TASSY
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257684
+    Name: ATLANTIC
+    Area: Cairo
+    SalesmanName: SALAH & AYMAN
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257721
+    Name: OMAR ELSAYED
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257902
+    Name: GAMAL SELIM FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257722
+    Name: EL ROBEAY
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 300412
+    Name: BAYTI FOR PAINTS
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257729
+    Name: AL-ALAMI FOR PAINTS&DECO.
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257746
+    Name: GHEETA FOR PAINTS
+    Area: Cairo
+    SalesmanName: SALAH & AYMAN
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 274774
+    Name: MAZAYA FOR PAINTS
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257763
+    Name: EL SANABEL
+    Area: Cairo
+    SalesmanName: TANTAWY & MOSTAFA
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 274777
+    Name: AL RAWDA FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 275353
+    Name: GODRAN FOR PAINTS
+    Area: Cairo
+    SalesmanName: SALAH & AYMAN
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 277186
+    Name: DECOR STORE PLUS
+    Area: Cairo
+    SalesmanName: TANTAWY & MOSTAFA
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 277445
+    Name: BAITY FOR PAINTS- Alaa Maher Farghaly
+    Area: Cairo
+    SalesmanName: TANTAWY & MOSTAFA
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257399
+    Name: DIAA EL-DIEN / DEC PAINTS 271422
+    Area: Cairo
+    SalesmanName: TANTAWY & MOSTAFA
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257577
+    Name: EBDAA
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257677
+    Name: EL-GENDY
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257822
+    Name: AWLAD OSMAN FOR PAINTS
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 3
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257818
+    Name: MOHSEN ZAKI
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257883
+    Name: EL WALEED FOR PAINTS
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257918
+    Name: KASR EL AMIR FOR PAINTS
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257932
+    Name: EL FATH - ISLAM FATHI A.SHAFI
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257936
+    Name: EL ARABY FOR PAINTS
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 259044
+    Name: SALAH AL DIEN RADWAN AHMED
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 261129
+    Name: EL HAFEZ FOR PAINTS AND DECORATION
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 265761
+    Name: ABU ABD ALLAH FOR PAINTS
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 271424
+    Name: YAHIA ART
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 0
+    Date: 
+    Status: Legal
+    category: 0
+  - Code: 275962
+    Name: AMOUN FOR PAINTS
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257764
+    Name: AL-LETHY FOR PAINTS - Rafaat Alethy
+    Area: Cairo
+    SalesmanName: SALAH & AYMAN
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257765
+    Name: RAINBOW
+    Area: Cairo
+    SalesmanName: SALAH & AYMAN
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257844
+    Name: AL-TAWHEED
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257859
+    Name: AHMED AL-KADY
+    Area: Cairo
+    SalesmanName: TANTAWY & MOSTAFA
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257903
+    Name: HELAL AL-AWADY FOR PAINTS - Mohamed Helal
+    Area: Cairo
+    SalesmanName: RASHWAN &MOSTAFA
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257919
+    Name: DECOR STORE FOR PAINTS
+    Area: Cairo
+    SalesmanName: TANTAWY & MOSTAFA
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257923
+    Name: RAWDA EL SHARIFA
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 315456
+    Name: MOHAMED ISMAIL
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257944
+    Name: EL HELW FOR DECORATION
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 259045
+    Name: EL TAKWA FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 259047
+    Name: MARY FOR PAINTS
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 259829
+    Name: GLOBAL PRIMA DC
+    Area: Cairo
+    SalesmanName: SALAH & AYMAN
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 261918
+    Name: FEKRY MOHAMED METWALLY- EL BARAKA
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 262460
+    Name: YOUSSEF FATHI OMRAN
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 265755
+    Name: SELECTION STORE - Mahmoud Mohamed Mahmoud
+    Area: Cairo
+    SalesmanName: TANTAWY & MOSTAFA
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 267233
+    Name: AVAMINA
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 268018
+    Name: REMON ZAKI REFAAT
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257692
+    Name: ELZAHRAA
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257699
+    Name: EL MASRIA (H. ABO EL FOTOUH)
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257566
+    Name: EL MOHANDES(HANY M ELSHERBENY)
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257848
+    Name: AL FARES FOR PAINTS
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 287825
+    Name: MANFALOUT FOR PAINTS - ARAFA SAID RESHWAN
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 303400
+    Name: EL ALAMEYA FOR PAINTS - EL SAEED HAFEZ OMAR
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 275285
+    Name: EL SHAYAL FOR PAINTS
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257743
+    Name: NADA
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 3
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257756
+    Name: ABU HENISH
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257793
+    Name: EL HELAL
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257828
+    Name: AWIS FOR PAINTS
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257837
+    Name: EL-KOMY FOR PAINTS
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 4
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257854
+    Name: AL ALAMIA CENTER
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257855
+    Name: AL METWALY
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257856
+    Name: DECORATION CENTER
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257862
+    Name: EL HADY FOR PAINTS
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257901
+    Name: AL TAWAMAN FOR PAINTS
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257907
+    Name: EL AMIR FOR PAINTS
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257536
+    Name: SINAI FOR TRADING & ENG. WORKS
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257947
+    Name: AL DAWLIA FOR PAINTS
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 259034
+    Name: AL ARABIA CENTER FOR PAINTS
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 259617
+    Name: SAMA CENTER FOR PAINTS
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 259619
+    Name: YOUSSEF FOR PAINTS
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 259826
+    Name: EL FATH FOR PAINTS AMR HARB
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 260288
+    Name: EL ZAHRAA MOHAMED TOLAN
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 260405
+    Name: ABO GHAREEB FOR PAINTS
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 260461
+    Name: BAHLOL FOR PAINTS
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 260502
+    Name: ABO EID FOR PAINTS
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 260505
+    Name: MEMAR CENTER FOR PAINTS
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 262580
+    Name: DARAG FOR PAINTS
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 266344
+    Name: KAZA LOUN FOR PAINTS
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 267808
+    Name: AL EMAM FOR PAINTS
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 3
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 270776
+    Name: NORWEGIAN CENTRE FOR PAINTS
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 271645
+    Name: EL MAZAHY
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 271708
+    Name: ABO SELIM
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 273473
+    Name: EL HODA W EL NOOR
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 274017
+    Name: AL GAOUDA CENTER FOR PAINTS
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 1
+    Date: 
+    Status: To be expired
+    category: 0
+  - Code: 274538
+    Name: EL NENAAY FOR COLORS CENTER FOR PAINTS
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 275288
+    Name: EL HEFNY FOR PAINTS
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257671
+    Name: 'EL-TAWILY '
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 276247
+    Name: ELSADAT FOR PAINTS
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 277193
+    Name: SAYED ABO GABAL FOR PAINTS
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 277390
+    Name: AHMED OTHMAN
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 277392
+    Name: ABU KHALIL
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257515
+    Name: PYRAMIDS FOR SHIPP & TRADING
+    Area: East
+    SalesmanName: ESSAM & MOHAMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257666
+    Name: SAMY DERGHAM
+    Area: East
+    SalesmanName: GHONIM & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257678
+    Name: EL SHARKIA SONS /DECO
+    Area: East
+    SalesmanName: ESSAM & MOHAMED
+    Shops: 3
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257679
+    Name: ABOUDA ELTEMSAH /DECO
+    Area: East
+    SalesmanName: ALLAM & EZZAT
+    Shops: 6
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257697
+    Name: DARSHCO COMPANY MCC/M
+    Area: East
+    SalesmanName: GHONIM & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257728
+    Name: ALWAN FOR PAINTS
+    Area: East
+    SalesmanName: GHONIM & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257840
+    Name: AL-MEGHARBEL FOR PAINTS
+    Area: East
+    SalesmanName: ESSAM & MOHAMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257894
+    Name: DECORA FOR PAINTS
+    Area: East
+    SalesmanName: GHONIM & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257909
+    Name: AL MALIK FOR PAINTS
+    Area: East
+    SalesmanName: GHONIM & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 273032
+    Name: AL HOUT FOR PAINTS
+    Area: East
+    SalesmanName: GHONIM & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 273470
+    Name: EL QODS
+    Area: East
+    SalesmanName: ALLAM & EZZAT
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 275355
+    Name: AL DAWLIA FOR PAINTS
+    Area: East
+    SalesmanName: ALLAM & EZZAT
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 276058
+    Name: AL MASSA FOR PAINTS
+    Area: East
+    SalesmanName: GHONIM & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257802
+    Name: HANY EL TEMSAH
+    Area: East
+    SalesmanName: GHONIM & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 271703
+    Name: GARDEN CITY CENTER
+    Area: East
+    SalesmanName: GHONIM & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 277385
+    Name: TECHNICAL MAKERS
+    Area: East
+    SalesmanName: ESSAM & MOHAMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257561
+    Name: AL SAID CENTER FOR PAINTS
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257579
+    Name: EL MASHREQ FOR PAINTS
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 278654
+    Name: SIZA
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257670
+    Name: DANA
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257881
+    Name: BEET AL KHEBRA(MOHD ABO DONYA)
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257691
+    Name: BAYA
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257675
+    Name: A.G. YEHIA MAHMOUD KHALIL
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 258895
+    Name: AL SHOROUK FOR PAINTS & DECO - WALEED ABD ELGHANY
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 262599
+    Name: KAZA DESIGN - Mohamed Hassan Sayed Omar
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 262642
+    Name: MOHAMED ZAKARIA FOR PAINTS
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257745
+    Name: AL-GADO FOR PAINTS
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 6
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257752
+    Name: HASSAN RAMADAN ABDEL HAMID
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 3
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 274300
+    Name: ABO GAMOUS FOR PAINTS
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 275349
+    Name: AL TOHAMY FOR PAINTS
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 304022
+    Name: AL MAARAG
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257821
+    Name: AHMED FATH EL-BAB
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257827
+    Name: AL-FAN AL-RAKI FOR DECORATION
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257836
+    Name: EL MADINA EL MANAWARA
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257872
+    Name: MOHAMED AWAGA    AL-ABDAA
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257877
+    Name: MAKKA FOR PAINTS
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257906
+    Name: ZEIN FOR PANITS
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257927
+    Name: BEET EL RADWAN - MOHAMED AWEES
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257941
+    Name: AL - AMER
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257951
+    Name: EL SHARQI (HOSSAM ABO HASHAM)
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257956
+    Name: AL-MEKDAD INSTITUTION
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 259043
+    Name: MOHAMED FARAG MOH'EL BEHEIRY
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 259361
+    Name: EL WAGEEH FOR PAINTS
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 259611
+    Name: EL SEBAEE FOR PAINTS
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 259614
+    Name: ZSR AL SALAM
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 259814
+    Name: AL ETIHAD INSTITUTION
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 259818
+    Name: EMAR FOR PAINTS
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 261090
+    Name: EL HAGAR FOR PAINTS AND TOOLS
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 265160
+    Name: COLOR HOME FOR PAINTS
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 299522
+    Name: BEETAK FOR PAINTS AND DECORATION
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 271959
+    Name: COLOR HOUSE
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 272236
+    Name: EBAD EL RAHMAN FOR PAINTS
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 272238
+    Name: AL MADINA FOR PAINTS AND DECORATION
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257562
+    Name: MAGGI GAMIL
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257563
+    Name: AL MOKHTAR FOR PAINTS
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257564
+    Name: ARTZANA -  Gehan seliman Yesy
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257565
+    Name: AL HEGAZ FOR PAINTS
+    Area: Upper
+    SalesmanName: ABUKHALIFA & ISLAM
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257567
+    Name: ROAYA FOR PAINTS
+    Area: Upper
+    SalesmanName: LATIF & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257569
+    Name: MAGDY EZZ ELDIN ( TEMA 2 )
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257576
+    Name: GREEN LIFE
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257696
+    Name: EL FADY
+    Area: Upper
+    SalesmanName: LATIF & AHMED
+    Shops: 4
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257736
+    Name: AYMAN FOR PAINTS
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257737
+    Name: MASTER COLORS
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257739
+    Name: COLOR WORLD - Gamalat Samuel
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257774
+    Name: MOHAMED KHALAF FOR PAINTS
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257791
+    Name: ASHRAF FOR PAINTS - Ashraf Reda
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257792
+    Name: EL FAGR FOR PAINTS
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257803
+    Name: EL MOSTAKBAL
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257826
+    Name: RAHMA FOR PAINTS
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257847
+    Name: SAMYA MOHAMED ELSHOLAKHY
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257850
+    Name: EL ZOHERY FOR PAINTS
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257852
+    Name: NEW EL SALAM FOR PAINTS
+    Area: Upper
+    SalesmanName: LATIF & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257863
+    Name: AL FATH
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257888
+    Name: ALEGANZA FOR PAINTS
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257890
+    Name: EL SALEH - Mohamed Saleh Abd El Shafy
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257573
+    Name: EL SOSY - Abd El Rehim Hany Abd El Fatah
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257758
+    Name: ELMINIA FOR PAINTING
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257892
+    Name: FORMIKA FOR PAINTS
+    Area: Upper
+    SalesmanName: Mohamed Thabet
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257893
+    Name: ROYAL FOR PAINTS
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257895
+    Name: EL REDA FOR PAINTS
+    Area: Upper
+    SalesmanName: ABUKHALIFA & ISLAM
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257899
+    Name: AL MOHAMADYA FOR MODERN PAINTS
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257900
+    Name: EL KASR FOR PAINTS
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257904
+    Name: EL RAAIY FOR PAINTS
+    Area: Upper
+    SalesmanName: ABUKHALIFA & ISLAM
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257905
+    Name: EL RADWAN FOR PAINTS-BENI SWEF
+    Area: Upper
+    SalesmanName: ABUKHALIFA & ISLAM
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257913
+    Name: MOHAMED ABD EL MAGED FOR PAINT
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257916
+    Name: EL MASRYA ( AHMED ALI MAHMOUD)
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257934
+    Name: EL-AMANA FOR PAINTS
+    Area: Upper
+    SalesmanName: LATIF & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257937
+    Name: AWLAD HELMY FOR PAINTS
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257952
+    Name: ABO ALI FOR PAINTS
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257953
+    Name: SAN GEORGE FOR PAINTS
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 258894
+    Name: AWLAD ABOUD
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 259693
+    Name: EL MAGHRABI FOR PAINTS - Abdallah Ahmed Baheg
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 261087
+    Name: AL KHOLY - Ibrahim Mohamed Kamal Farhat
+    Area: Upper
+    SalesmanName: LATIF & AHMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 261458
+    Name: EL TAREK CENTER - Tarek Mohamed
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 261916
+    Name: EL ZEINY FOR PAINTS 2
+    Area: Upper
+    SalesmanName: LATIF & AHMED
+    Shops: 3
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 261920
+    Name: ALLAM ALWAN SANDAFA - AHMED ANWAR ABD EL HAFEZ
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 262603
+    Name: BE HOME EKHWAN MORAD ASWAN
+    Area: Upper
+    SalesmanName: Hussein & Fahd
+    Shops: 1
+    Date: 
+    Status: To be expired
+    category: 0
+  - Code: 263407
+    Name: EL SHIEKH FOR PAINTS - Mahmoud Ahmed Ibrahim
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 264843
+    Name: MARINA FOR MODERN PAINTS
+    Area: Upper
+    SalesmanName: Mohamed Thabet
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 265164
+    Name: EL ALAMIA FOR DECOR - Zahera Kamel Megaly
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 265524
+    Name: AL ATAR PAINTS
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 267997
+    Name: EVERST FOR PAINTS
+    Area: Upper
+    SalesmanName: ABUKHALIFA & ISLAM
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 267999
+    Name: EL MARWA FOR PAINTS
+    Area: Upper
+    SalesmanName: ABUKHALIFA & ISLAM
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 270372
+    Name: EL ROMANY EL RAHMANYA
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 270488
+    Name: FIRST FOR PAINTS
+    Area: Upper
+    SalesmanName: Mohamed Thabet
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 270493
+    Name: EL SOSY IDEAL SHOP- Farouk Abo El Azayem Ahmed
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 270559
+    Name: AL PRIMO FOR PAINTS
+    Area: Upper
+    SalesmanName: ABUKHALIFA & ISLAM
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 270714
+    Name: ABU TOMAS
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 270774
+    Name: EL SHESHTAWY
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 270791
+    Name: CITY COLORS IDEAL SHOP
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 270793
+    Name: EL AGAYBY
+    Area: Upper
+    SalesmanName: Mohamed Thabet
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 271785
+    Name: HERO - Michael Moneer
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 271925
+    Name: EL SHARK SOHAG - Mostafa Gad Morsy
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 271962
+    Name: MAGDY YAKOUB FOR PAINTS
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 271983
+    Name: BERAM 2 FOR PAINTS
+    Area: Upper
+    SalesmanName: Mohamed Thabet
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 272221
+    Name: EL SAEDY FOR PAINTS
+    Area: Upper
+    SalesmanName: Mohamed Thabet
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 272698
+    Name: EL GAWDA FOR PAINTS
+    Area: Upper
+    SalesmanName: Mohamed Thabet
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 273456
+    Name: MODERN
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 274155
+    Name: EL MOHARAQ - Samuel Habib Doas
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 274534
+    Name: ' EL ALAMYA'
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 277394
+    Name: KARAM MOHAMED HASSAN
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257570
+    Name: EL MOHANDES(ASHRAF MOUSA )
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257574
+    Name: IBRAHIM ABDULHAFIZ HARON
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257682
+    Name: EL SANHORY
+    Area: West
+    SalesmanName: ABDELAZIZ & MOHAMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257683
+    Name: SALEM
+    Area: West
+    SalesmanName: RAGAB & MOHAMED
+    Shops: 4
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257690
+    Name: MAGO TOP
+    Area: West
+    SalesmanName: ABDELAZIZ & MOHAMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257693
+    Name: EL DAWLIA
+    Area: West
+    SalesmanName: ABDELAZIZ & MOHAMED
+    Shops: 1
+    Date: 
+    Status: To be expired
+    category: 0
+  - Code: 257694
+    Name: STYLE
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257698
+    Name: PENGUIN INT. FOR TRAD. DECO
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257767
+    Name: TREND INSPIRATION CENTER
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257824
+    Name: AHMED GABER EL-SAID KHATAB
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257832
+    Name: MAHMOUD KHAMIS ALI
+    Area: West
+    SalesmanName: ABDELAZIZ & MOHAMED
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257833
+    Name: QUEEN PALACE
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257889
+    Name: MAHMOUD HASSAN A.AZIZ
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257841
+    Name: ART HOUSE - TAREK EL NABAWY
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257860
+    Name: ABO YOUSIF FOR PAINTS
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257865
+    Name: ABU KHADEGA FOR PAINTS
+    Area: West
+    SalesmanName: AbdelKader & Moustafa
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257884
+    Name: GAMAL SAAD MOHAMED
+    Area: West
+    SalesmanName: AbdelKader & Moustafa
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257891
+    Name: MOUSTAFA MASHAAL
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257915
+    Name: TAREK EL ZARKA FOR PAINTS
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257949
+    Name: AL AWAL
+    Area: West
+    SalesmanName: ABDELAZIZ & MOHAMED
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 257954
+    Name: ARAFA FOR PAINTS
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 258898
+    Name: AL RADWAN
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 259035
+    Name: ISLAM GEBRIL- ALWAN FOR PAINTS
+    Area: West
+    SalesmanName: AbdelKader & Moustafa
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 259718
+    Name: KAMAL HAMMAD FOR PAINTS
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 259782
+    Name: ESSAM GHONIEM FOR PAINTS
+    Area: West
+    SalesmanName: AbdelKader & Moustafa
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 259820
+    Name: TAHA FOR PAINTS
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 262080
+    Name: EL EMAN FOR PAINTS
+    Area: West
+    SalesmanName: AbdelKader & Moustafa
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 262145
+    Name: MAZZO FOR PAINTS
+    Area: West
+    SalesmanName: AbdelKader & Moustafa
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 266937
+    Name: MOHAMED EZZAT IBRAHIM GABR
+    Area: West
+    SalesmanName: AbdelKader & Moustafa
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 267132
+    Name: EL MOKHTAR FOR PAINTS AND DECORATION
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 2
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 272182
+    Name: HOME COLOR MOHAMED EL SAID
+    Area: West
+    SalesmanName: ABDELAZIZ & MOHAMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 272568
+    Name: MAGDY EL SAYED ABO MAEBAD
+    Area: West
+    SalesmanName: AbdelKader & Moustafa
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 273850
+    Name: OFF WHITE FOR PAINTS
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 274041
+    Name: ISLAM EL SAYED FOR PAINTS
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 304025
+    Name: AHMED YOUNIS IBRAHIM
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 303693
+    Name: EL REYAD FOR DECORATION
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 1
+    Date: 
+    Status: To be expired
+    category: 0
+  - Code: 275681
+    Name: KARIZMA
+    Area: West
+    SalesmanName: ABDELAZIZ & MOHAMED
+    Shops: 1
+    Date: 
+    Status: Active
+    category: 0
+  - Code: 271243
+    Name: AL MOSTAFA - Taha Mohamed Kamal
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 0
+    Date: 44104
+    Status: Expired
+    category: 0
+  - Code: 317948
+    Name: PYRAMIDS FOR PAINTS
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 0
+    Date: 44591
+    Status: Expired
+    category: 0
+  - Code: 310126
+    Name: DECORATION AL QRM
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 0
+    Date: 44591
+    Status: Expired
+    category: 0
+  - Code: 298617
+    Name: EL TEMSAH - ASHOUR AHMED ASHOUR
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 0
+    Date: 44584
+    Status: Expired
+    category: 0
+  - Code: 276660
+    Name: AWLAD OMRAN FOR PAINTS
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 0
+    Date: 44572
+    Status: Expired
+    category: 0
+  - Code: 257784
+    Name: FONON
+    Area: West
+    SalesmanName: AbdelKader & Moustafa
+    Shops: 0
+    Date: 44580
+    Status: Expired
+    category: 0
+  - Code: 257880
+    Name: DAHAB FOR PAINTS
+    Area: Upper
+    SalesmanName: ABUKHALIFA & ISLAM
+    Shops: 0
+    Date: 44411
+    Status: Expired
+    category: 0
+  - Code: 279596
+    Name: DECOR ELAMANA FOR PAINTS
+    Area: Cairo
+    SalesmanName: TANTAWY & MOSTAFA
+    Shops: 0
+    Date: 44411
+    Status: Expired
+    category: 0
+  - Code: 259046
+    Name: EL SANABEL SMART
+    Area: Cairo
+    SalesmanName: ABUZEID & AHMED
+    Shops: 0
+    Date: 44383
+    Status: Expired
+    category: 0
+  - Code: 257829
+    Name: MOSTAFA RAOUF - Ibrahim Moustafa Ibrahim
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 0
+    Date: 
+    Status: EXPIRED
+    category: 0
+  - Code: 299810
+    Name: EL ASWAD FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 0
+    Date: 
+    Status: EXPIRED
+    category: 0
+  - Code: 262583
+    Name: EL SAYED MOHAMED ALI FARAG
+    Area: Cairo
+    SalesmanName: SALAH & AYMAN
+    Shops: 0
+    Date: 44382
+    Status: Expired
+    category: 0
+  - Code: 257710
+    Name: NICOLA
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 265841
+    Name: EMAD AWNY FOR PAINTS
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257668
+    Name: TIBA
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 0
+    Date: 44229
+    Status: Expired
+    category: 0
+  - Code: 298591
+    Name: AHMED EL SAYED ABDEL GAWAD
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 0
+    Date: 44221
+    Status: Expired
+    category: 0
+  - Code: 263725
+    Name: TRADING CENTER FOR PAINTS
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 0
+    Date: 44221
+    Status: Expired
+    category: 0
+  - Code: 274770
+    Name: EL SALLAB INSTITUTION FOR  PAINTS
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 298620
+    Name: AMR KOTB FOR PAINTS - AMR MOHAMED EL KOTB
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 0
+    Date: 44132
+    Status: Expired
+    category: 0
+  - Code: 278719
+    Name: HASSEP ATTITO MOHAMED
+    Area: Upper
+    SalesmanName: Hussein & Fahd
+    Shops: 0
+    Date: 44125
+    Status: Expired
+    category: 0
+  - Code: 257830
+    Name: EL FAROUK - SAID ABD EL MALEK
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 279066
+    Name: MAHMOUD RAMADAN ABDEL RAHMAN - 3D HOUSE
+    Area: Upper
+    SalesmanName: LATIF & AHMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 303278
+    Name: EL NOUR FOR PAINTS
+    Area: Cairo
+    SalesmanName: SALAH & AYMAN
+    Shops: 0
+    Date: 44098
+    Status: Expired
+    category: 0
+  - Code: 278237
+    Name: MORSY EL REFAEEI
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 0
+    Date: 43891
+    Status: Expired
+    category: 0
+  - Code: 276658
+    Name: ALIM CENTER FOR PAINTS
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 0
+    Date: 44010
+    Status: Expired
+    category: 0
+  - Code: 257751
+    Name: EL TAWEELY
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 0
+    Date: 43996
+    Status: Expired
+    category: 0
+  - Code: 288095
+    Name: EL AMER FOR PAINTS
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 0
+    Date: 43982
+    Status: Expired
+    category: 0
+  - Code: 260245
+    Name: ATEF ZAKARIA ALLAM ALWAN
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 273003
+    Name: BEIT EL HANA FOR PAINTS AND DECORATION
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 0
+    Date: 43717
+    Status: Expired
+    category: 0
+  - Code: 275584
+    Name: NEW FERAONYA FOR PAINTS
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 299879
+    Name: AL BAKRY FOR PAINTS
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 277813
+    Name: MOHAMED AHMED ABDEL HAKEM (ABO HAMAMA)(EXPIRED)
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 304602
+    Name: ELMOZHEL FOR PAINTS
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 260331
+    Name: ART FOR MODERN PAINTS
+    Area: Upper
+    SalesmanName: Hussein & Fahd
+    Shops: 0
+    Date: 43866
+    Status: Expired
+    category: 0
+  - Code: 278402
+    Name: EL RAYA EL KHAFAKA
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 276860
+    Name: EL-SROGY
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 0
+    Date: 43866
+    Status: Expired
+    category: 0
+  - Code: 259359
+    Name: ELEMAN
+    Area: East
+    SalesmanName: GHONIM & AHMED
+    Shops: 0
+    Date: 43860
+    Status: Expired
+    category: 0
+  - Code: 304990
+    Name: ABO ISMAIL SONS (EXPIRED)
+    Area: Upper
+    SalesmanName: LATIF & AHMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257853
+    Name: ALWAN AL-TAIF
+    Area: Cairo
+    SalesmanName: TANTAWY & MOSTAFA
+    Shops: 0
+    Date: 43859
+    Status: Expired
+    category: 0
+  - Code: 307544
+    Name: SALEM FOR PAINTS - AWATEF MOHAMED ALI
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 0
+    Date: 43850
+    Status: Expired
+    category: 0
+  - Code: 257825
+    Name: BEIT AL KHEBRRA - MOHAMED MOHSEN
+    Area: Cairo
+    SalesmanName: ABUZEID & AHMED
+    Shops: 0
+    Date: 43852
+    Status: Expired
+    category: 0
+  - Code: 257857
+    Name: KOBIESY
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 0
+    Date: 43836
+    Status: Expired
+    category: 0
+  - Code: 301028
+    Name: EL KODS FOR PAINTS
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 0
+    Date: 43836
+    Status: Expired
+    category: 0
+  - Code: 257742
+    Name: SHABANA CENTER
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 0
+    Date: 43836
+    Status: Expired
+    category: 0
+  - Code: 270427
+    Name: HASSAN MOSTAFA HASSAN EL WAKIEL
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 0
+    Date: 43734
+    Status: Expired
+    category: 0
+  - Code: 257676
+    Name: HEGAZY
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 0
+    Date: 43718
+    Status: Expired
+    category: 0
+  - Code: 257842
+    Name: AL-ETIHAD AL-MASRY
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 0
+    Date: 43719
+    Status: Expired
+    category: 0
+  - Code: 259363
+    Name: Brothers for paints (EXPIRED)
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257571
+    Name: MOHAMED AHMED HAMMAD CO- ABO OMAR.(expired)
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 0
+    Date: 43699
+    Status: Expired
+    category: 0
+  - Code: 301969
+    Name: ASHRAF SALAH EL DIN SALEH
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 0
+    Date: 43760
+    Status: Expired
+    category: 0
+  - Code: 303007
+    Name: SALAH EL DIN FOR DECOR - MERVAT MOHAMED (EXPIRED)
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 273825
+    Name: EL SAYED FOR PAINTS(EXPIRED)
+    Area: West
+    SalesmanName: ABDELAZIZ & MOHAMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 282167
+    Name: IBRAM ANWAR DANIEL - AL LOLOA FOR PAINTS (EXPIRED)
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257812
+    Name: HIGH BUILD FOR TRADING & CONSTRUCTION
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 277362
+    Name: ART MIX FOR PAINTS(EXPIRED)
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 258897
+    Name: LON GEDED (EXPIRED)
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 285021
+    Name: EMAM MOHAMED EFFAT ABDEL WAHED MEGAHED
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 259622
+    Name: AL ISLAMIA FOR PAINTS MCC(EXPIRED)
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 261089
+    Name: EL GAMMAL FOUNDER(EXPIRED)
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257926
+    Name: EL ZAHRAA - BATANOON
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 270369
+    Name: EL NEMR FOR PAINTS(EXPIRED)
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257681
+    Name: ALANIS NOZHA(EXPIRED)
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257669
+    Name: EL-NOZHA (EXPIRED)
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257749
+    Name: EL BEIT EL HADITH - MOHAMED MAHDY ABDEL GHAFAR
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257943
+    Name: MOHAMED ISMAIL (EXPIRED)
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257898
+    Name: EL ZEINY FOR PAINTS (EXPIRED)
+    Area: Upper
+    SalesmanName: LATIF & AHMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 258889
+    Name: EL MOTAHEDA FOR PAINTS & DECOR (EXPIRED)
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 301030
+    Name: LAMSA FOR PAINTS - SHERIF FATHY (EXPIREFD)
+    Area: Cairo
+    SalesmanName: ABUZEID & AHMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 289284
+    Name: AL MOHAMADEYA FOR PAINTS (EXPIRED)
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 298180
+    Name: PALLETTE (EXPIRED)
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 259042
+    Name: EL MEAMAAR-HANY KAMAL MOH'RADY (EXPIRED)
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 259620
+    Name: EBDAA CENTER FOR PAINTS (EXPIRED)
+    Area: Delta
+    SalesmanName: MANDOUR & YOUSRY
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 298722
+    Name: EL FATTIMIA FOR PAINTS (EXPIRED)
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257928
+    Name: MORSY AND OSAMA FOR PAINTS - AHMED YEHIA MORSY (EXPIRED)
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257794
+    Name: SABRY ABD EL GHANY (EXPIRED)
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257708
+    Name: EL HUSSENI (EXPIRED)
+    Area: West
+    SalesmanName: ELMALLAH & AHMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 259051
+    Name: AL ARABY FOR PAINTS (EXPIRED)
+    Area: Cairo
+    SalesmanName: ABUZEID & AHMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 271542
+    Name: SMART FOR PAINTS AND DECORATION (EXPIRED)
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 262147
+    Name: DESIGN WORLD FOR PAINTS (EXPIRED)
+    Area: East
+    SalesmanName: ESSAM & MOHAMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 275185
+    Name: AL DESOUKI FOR PAINTS (EXPIRED)
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 272188
+    Name: TOUCH (EXPIRED)
+    Area: East
+    SalesmanName: GHONIM & AHMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257886
+    Name: BALEGH ELSEBAAY (EXPIRED)
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 260285
+    Name: AHMED ABD EL KHALEK ABD EL KHALEK (EXPIRED)
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 276079
+    Name: EL FAYEZ FOR PAINTS (EXPIRED)
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257741
+    Name: SELECTION (EXPIRED)
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 259041
+    Name: HASSAN EL GHALBAN (EXPIRED)
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257868
+    Name: DAAR EL DEHANAT (EXPIRED)
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 272958
+    Name: AL SAFA (EXPIRED)
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 269880
+    Name: EL MAHABA FOR PAINTS AND DECORATION
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257959
+    Name: EL FOSTAT FOR PAINTS -ALSAYED (EXPIRED)
+    Area: Giza
+    SalesmanName: ALASABGY & MOHAB
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257672
+    Name: ALAM SEDKY /DEC (EXPIRED)
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 258893
+    Name: AL YOSR FOR PAINTS (EXPIRED)
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 282646
+    Name: NEW HOME FOR PAINTS (EXPIRED)
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 261131
+    Name: Decoration House - Magda Foad (EXPIRED)
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 270128
+    Name: 'BEETAK FOR PAINTS AND DECORATION (EXPIRED) '
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257875
+    Name: EL HAMD FOR PAINTS - GIZA (EXPIRED)
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257910
+    Name: LAMSET GAMAL FOR PAINTS (EXPIRED)
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 270429
+    Name: ZATY FOR PAINTS AND DECORATION (EXPIRED)
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 280290
+    Name: LAMSET GAMAL FOR PAINTS - ABDEL RAHMAN (EXPIRED)
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257931
+    Name: PIONEER TRADING CO. (EXPIRED)
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257680
+    Name: EKHWAN MORAD (EXPIRED)
+    Area: Upper
+    SalesmanName: Hussein & Fahd
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257914
+    Name: El Baseet - Nadia Sobhy Moawad (EXPIRED)
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257735
+    Name: NEW ASSUIT (EXPIRED)
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257851
+    Name: EL HAMD FOR PAINTS (EXPIRED)
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 271241
+    Name: ABO AMMAR - Hegag Ali Abd Alla (EXPIRED)
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 273285
+    Name: SMART HOUSE (EXPIRED)
+    Area: Cairo
+    SalesmanName: SALAH & AYMAN
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 258901
+    Name: COLOR INSPIRATION CENTER (EXPIRED)
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 277437
+    Name: EL ASWAD FOR PAINTS (EXPIRED)
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 259358
+    Name: LAMASTE FOR PAINTS (EXPIRED)
+    Area: Cairo
+    SalesmanName: ABUZEID & AHMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257834
+    Name: HEGAZ CENTER (EXPIRED)
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257935
+    Name: "ALAM EL D\xC9COR (EXPIRED)"
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 266346
+    Name: EL ROOBAY MAADI (EXPIRED)
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 277882
+    Name: EL SHOROUK FOR PAINTS (EXPIRED)
+    Area: Cairo
+    SalesmanName: ABUZEID & AHMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 300590
+    Name: CASA STORE FOR PAINTS - NOHA MOHAMED HANY (EXPIRED)
+    Area: Cairo
+    SalesmanName: ABUZEID & AHMED
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 265759
+    Name: EL DAWLIA FOR PAINTS (Expired)
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257572
+    Name: OMDA & KHEDR (EXPIRED)
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 273171
+    Name: AL YASSIN FOR PAINTS (EXPIRED)
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 271793
+    Name: MAHMOUD ABU EL ANIN MOUSTAFA ABU SHEHATA (EXPIRED)
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 278193
+    Name: SHAMS FOR PAINTS (EXPIRED)
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 261977
+    Name: EL SAMAHY (EXPIRED)
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257689
+    Name: SWEDISH CO. FOR MODERN (EXPIRED)
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257930
+    Name: ABOU EL-ELA FOR PAINTS (EXPIRED)
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257707
+    Name: ART VISION GROUP (EXPIRED)
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 270772
+    Name: HAMADENO AHMED AHMED AHMED SHALABY (EXPIRED)
+    Area: West
+    SalesmanName: Rowieny & Ahmed
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 257772
+    Name: AL ABD FOR PAINTS AND DECORATION
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 289199
+    Name: EL NASR ESTABLISHMENT - HAMADA NASR ABD ELHALEEM TOLBA
+    Area: Giza
+    SalesmanName: GOUDA & HAYTHEM
+    Shops: 0
+    Date: 44271
+    Status: Expired
+    category: 0
+  - Code: 311160
+    Name: AL FAROUK FOR PAINTS - OSAMA FAROUK
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 0
+    Date: 44271
+    Status: Expired
+    category: 0
+  - Code: 306434
+    Name: 'EL WAKEEL FOR PAINTS - ESSAM  ADLY '
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 273539
+    Name: HAZEM MOHAMED HOSSAM
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 0
+    Date: 
+    Status: Expired
+    category: 0
+  - Code: 314619
+    Name: OMAR AND OMAR FOR PAINTS - RASHAD METWALLY
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 0
+    Date: 44272
+    Status: Expired
+    category: 0
+  - Code: 311023
+    Name: HAFEZ PAINTS
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 0
+    Date: 44300
+    Status: Expired
+    category: 0
+  - Code: 309005
+    Name: SONECS
+    Area: Cairo
+    SalesmanName: SALAH & AYMAN
+    Shops: 0
+    Date: 44300
+    Status: Expired
+    category: 0
+  - Code: 301744
+    Name: COLOR HOME FOR PAINTS
+    Area: Cairo
+    SalesmanName: TANTAWY & MOSTAFA
+    Shops: 0
+    Date: 44300
+    Status: Expired
+    category: 0
+  - Code: 301417
+    Name: SHARARA FOR PAINTS
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 0
+    Date: 44300
+    Status: Expired
+    category: 0
+  - Code: 281523
+    Name: AL TAAMEER INSTITUTION FOR CONTRACTING AND TRADE
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 0
+    Date: 44325
+    Status: Expired
+    category: 0
+  - Code: 287588
+    Name: MAGIC COLOR - IMAN SAAD AHMED HABIBA
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 0
+    Date: 44327
+    Status: Expired
+    category: 0
+  - Code: 257843
+    Name: WALEED HENISH FOR PAINTS
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 0
+    Date: 44346
+    Status: Expired
+    category: 0
+  - Code: 268532
+    Name: STAR LIGHT FOR PAINTS
+    Area: Delta
+    SalesmanName: SHAWKAT & SAMEH
+    Shops: 0
+    Date: 44349
+    Status: Expired
+    category: 0
+  - Code: 317441
+    Name: EL SAAD- EL MAHGOUB ABDEL SALAM
+    Area: Delta
+    SalesmanName: Ghwail & Mohamed
+    Shops: 0
+    Date: 44425
+    Status: Expired
+    category: 0
+  - Code: 276060
+    Name: KHALED EMAM FOR PAINTS
+    Area: East
+    SalesmanName: GHONIM & AHMED
+    Shops: 0
+    Date: 44425
+    Status: Expired
+    category: 0
+  - Code: 257748
+    Name: CITY COLORS
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 0
+    Date: 44427
+    Status: Expired
+    category: 0
+  - Code: 257831
+    Name: DARAK
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 0
+    Date: 44427
+    Status: Expired
+    category: 0
+  - Code: 257929
+    Name: EL-HELB FOR PAINTS & DECORATION
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 0
+    Date: 44427
+    Status: Expired
+    category: 0
+  - Code: 257942
+    Name: EL SAFWA - GHANDAKLY
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 0
+    Date: 44427
+    Status: Expired
+    category: 0
+  - Code: 259039
+    Name: BEDAYA - ADEL ABDEL HAQ OMAR (EXPIRED)
+    Area: Cairo
+    SalesmanName: TANTAWY & MOSTAFA
+    Shops: 0
+    Date: 44427
+    Status: Expired
+    category: 0
+  - Code: 270485
+    Name: ACE HARDWARE
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 0
+    Date: 44427
+    Status: Expired
+    category: 0
+  - Code: 262547
+    Name: COLOR CORNER - Mena Nabile
+    Area: Upper
+    SalesmanName: ElGretly & Mohamed
+    Shops: 0
+    Date: 44453
+    Status: Expired
+    category: 0
+  - Code: 257568
+    Name: EL SHOHADA
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 0
+    Date: 44453
+    Status: Expired
+    category: 0
+  - Code: 263727
+    Name: COLOR CODE
+    Area: Giza
+    SalesmanName: ELSHOURBAGY & TAREK
+    Shops: 0
+    Date: 44453
+    Status: Expired
+    category: 0
+  - Code: 285539
+    Name: AL REWAEE FOR PAINTS - HATEM HUSSIEN AHMED SERY
+    Area: Cairo
+    SalesmanName: TANTAWY & MOSTAFA
+    Shops: 0
+    Date: 44453
+    Status: Expired
+    category: 0
+  - Code: 299156
+    Name: HUSSIEN FOUAD MANDOUR
+    Area: Upper
+    SalesmanName: ELASKARY & HUSSEIN
+    Shops: 0
+    Date: 44453
+    Status: Expired
+    category: 0
+  - Code: 301280
+    Name: NORMANDY FOR PAINTS
+    Area: Cairo
+    SalesmanName: FAHMI & MOHAMED
+    Shops: 0
+    Date: 44453
+    Status: Expired
+    category: 0
+  - Code: 301046
+    Name: AL KASABY FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 0
+    Date: 44453
+    Status: Expired
+    category: 0
+  - Code: 301048
+    Name: AWLAD EL GAMAL FOR PAINTS
+    Area: Cairo
+    SalesmanName: MOSTAFA & ASHRAF
+    Shops: 0
+    Date: 44453
+    Status: Expired
+    category: 0
+  - Code: 325135
+    Name: AL HAMD FOR PAINTS
+    Area: West
+    SalesmanName: AbdelKader & Moustafa
+    Shops: 0
+    Date: 44453
+    Status: Expired
+    category: 0
+  - Code: 316108
+    Name: EL GAMMAL FOUNDATION
+    Area: Cairo
+    SalesmanName: MOKHTAR & KARIM
+    Shops: 0
+    Date: 44453
+    Status: Expired
+    category: 0
+  - Code: 302820
+    Name: GANNAT FOR PAINTS - MOHAMED KAMAL ABDEL HASEEB
+    Area: Upper
+    SalesmanName: HASSAAN & MAHMOUD
+    Shops: 0
+    Date: 44461
+    Status: Expired
+    category: 0
+  - Code: 291356
+    Name: AL AZIZA FOR PAINTS
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 0
+    Date: 44461
+    Status: Expired
+    category: 0
+  - Code: 300540
+    Name: AL QRM
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 0
+    Date: 44461
+    Status: Expired
+    category: 0
+  - Code: 279711
+    Name: AHMED ABDEL HAKEEM ABDEL AZEEM GOMAA MANSOUR
+    Area: Delta
+    SalesmanName: ELTAWEEL & MOHAMED
+    Shops: 0
+    Date: 44461
+    Status: Expired
+    category: 0
+  - Code: 259362
+    Name: EL HELAWY - ASMAA SHABASN
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 0
+    Date: 44468
+    Status: Expired
+    category: 0
+  - Code: 270046
+    Name: AL-YASSIN FOR PAINTS AND DECORATION
+    Area: Giza
+    SalesmanName: ADEL & AHMED
+    Shops: 0
+    Date: 44510
+    Status: Expired
+    category: 0
+  - Code: 323642
+    Name: KHALED MOUSA
+    Area: West
+    SalesmanName: ELNAGAR & ABDALLAH
+    Shops: 0
+    Date: 44453
+    Status: Expired
+    category: 0
