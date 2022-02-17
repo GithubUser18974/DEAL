@@ -13,7 +13,7 @@ public class StartAfterTime : MonoBehaviour
     }
     private void OnDisable()
     {
-        Invoke("WTFF", 0.5f);
+        Invoke("WTFF", 0.1f);
     }
     void WTF()
     {

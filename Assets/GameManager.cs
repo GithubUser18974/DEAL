@@ -219,7 +219,7 @@ public class GameManager : MonoBehaviour
     public void SetNumberOfItems(int sale)
     {
         currSale = sale;
-        int val = currCampgain * currSale * currRatio / 100;
+        int val = currCampgain * sale * currRatio / 100;
         currKhasm = val;
         SetDealValue(val);
     }
