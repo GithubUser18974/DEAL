@@ -1205,6 +1205,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3696807829990964002, guid: e0f698c984ecb78419803e45cad4a899, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3696807830415300767, guid: e0f698c984ecb78419803e45cad4a899, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3696807830415300767, guid: e0f698c984ecb78419803e45cad4a899, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3696807830415300767, guid: e0f698c984ecb78419803e45cad4a899, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3696807830415300767, guid: e0f698c984ecb78419803e45cad4a899, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3696807830490523316, guid: e0f698c984ecb78419803e45cad4a899, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2920,6 +2940,7 @@ MonoBehaviour:
   - {fileID: 424139106}
   - {fileID: 1255120211}
   - {fileID: 911094430}
+  - {fileID: 461715899}
   objTOSHowWhenCounting: {fileID: 1979441891}
   multiply: 1000
 --- !u!4 &726450446
@@ -4071,8 +4092,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.742, y: 173.088}
-  m_SizeDelta: {x: 872.967, y: 195.496}
+  m_AnchoredPosition: {x: 39.507, y: 191.601}
+  m_SizeDelta: {x: 1089.833, y: 232.522}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &986194033
 MonoBehaviour:
@@ -4087,7 +4108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8980392, g: 0.7482, b: 0.23137254, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4095,7 +4116,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 2947710b51d69bb47977e494b864541c, type: 3}
     m_FontSize: 130
     m_FontStyle: 1
     m_BestFit: 1
@@ -6782,8 +6803,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 236, y: -98}
-  m_SizeDelta: {x: 759.409, y: 143.321}
+  m_AnchoredPosition: {x: 236, y: -128.4141}
+  m_SizeDelta: {x: 759.409, y: 204.149}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1979441893
 MonoBehaviour:
@@ -6798,7 +6819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.7648231, b: 0.02264148, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6806,12 +6827,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 116
+    m_Font: {fileID: 12800000, guid: 2947710b51d69bb47977e494b864541c, type: 3}
+    m_FontSize: 156
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 116
+    m_MaxSize: 162
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
