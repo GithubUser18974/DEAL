@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
     public GameObject Game_4_15;
     public GameObject textwrongCode;
     public GameObject Keyboard;
-
+    public GameObject HD_Vedio;
     #endregion
     #region PUBLIC UI Text VARIABLE
     public Text textUserName;
@@ -40,6 +40,8 @@ public class GameManager : MonoBehaviour
     int currCampgain = 8000;
     int currRatio = 8;
     bool isCodeCorrect = false;
+    public bool isCounting = false;
+    public int currKhasm;
     [Header("Should be used by Hardware (Ahmed) ")]
     bool canReceiveInputFromHardware=false;
     private void Start()
@@ -185,6 +187,7 @@ public class GameManager : MonoBehaviour
         Game_4.SetActive(false);
         Game_5.SetActive(false);
         Game_6.SetActive(true);
+        HD_Vedio.SetActive(true);
     }
     public void HideEverything()
     {
@@ -217,11 +220,13 @@ public class GameManager : MonoBehaviour
     {
         currSale = sale;
         int val = currCampgain * currSale * currRatio / 100;
+        currKhasm = val;
         SetDealValue(val);
     }
     public void SetNumberOfItem_UI(Text WTFt)
     {
         int val = currCampgain * currSale * currRatio / 100;
+        currKhasm = val;
         WTFt.text = "" + val;
         SalesTextState(false) ;
         WTFt.transform.parent.gameObject.SetActive(true);
@@ -241,6 +246,7 @@ public class GameManager : MonoBehaviour
             i.SetActive(state);
         }
     }
+    //Start Dealing Game 5
     public void ConfimOffer()
     {
         if (currSale > 0)
@@ -274,5 +280,41 @@ public class GameManager : MonoBehaviour
         submit.Shops = t;
         submit.submit();
 
+    }
+    public GameObject[] objTOHideWhenCounting;
+    public GameObject objTOSHowWhenCounting;
+    public void StartCountuing()
+    {
+        foreach(GameObject i in objTOHideWhenCounting)
+        {
+            i.SetActive(false);
+        }
+        objTOSHowWhenCounting.SetActive(true);
+        isCounting = true;
+    }
+    public void StartCount(int x)
+    {
+        textDealValue.text = "" + x;
+    }
+
+
+
+
+    float Timer = 0.0f;
+    public float multiply = 15;
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (isCounting)
+        {
+            Timer += Time.deltaTime * multiply;
+            StartCount((int)Timer);
+            if (Timer >= currKhasm) { 
+                Invoke("Start_Game_5",3);
+                isCounting = false;
+            }
+
+        }
     }
 }
