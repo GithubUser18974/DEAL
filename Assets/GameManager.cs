@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
@@ -20,12 +21,14 @@ public class GameManager : MonoBehaviour
     public GameObject Game_4_12;
     public GameObject Game_4_15;
     public GameObject textwrongCode;
+    public GameObject Keyboard;
 
     #endregion
     #region PUBLIC UI Text VARIABLE
     public Text textUserName;
     public Text textSalesName;
     public Text textDealValue;
+    public InputField codeInput;
     #endregion
     string currName = "";
     string currSalesName = "";
@@ -37,24 +40,29 @@ public class GameManager : MonoBehaviour
     int currCampgain = 8000;
     int currRatio = 8;
     bool isCodeCorrect = false;
+    bool canReceiveInputFromHardware=false;
     private void Start()
     {
         HideEverything();
         Start_Game_1();
+        codeInput.characterLimit = 6;
 
     }
-    public void Btn_CodeEnter(InputField inputField)
+    public void Btn_CodeEnter(Text inputField)
     {
-        currCode = int.Parse(inputField.text);
+        string temp = inputField.text;
+        currCode = int.Parse(temp);
         GetUserData(currCode);
         if (isCodeCorrect)
         {
+            Keyboard.SetActive(false);
             UpdateUI();
             Start_Game_3();
         }
         else
         {
             textwrongCode.SetActive(true);
+            codeInput.text = "";
         }
     }
     public void Btn_Start_Game_2()
@@ -120,6 +128,7 @@ public class GameManager : MonoBehaviour
     }
     public void Start_Game_4()
     {
+        canReceiveInputFromHardware = true;
         Game_1.SetActive(false);
         Game_2.SetActive(false);
         Game_3.SetActive(false);
@@ -134,6 +143,8 @@ public class GameManager : MonoBehaviour
         Game_4_15.SetActive(false);
         Game_4_12.SetActive(false);
         Game_4_8.SetActive(true);
+        currRatio = 8;
+        currCampgain = 8000;
     }
     [ContextMenu("12%")]
     public void StartGame_4_12()
@@ -142,6 +153,8 @@ public class GameManager : MonoBehaviour
         Game_4_15.SetActive(false);
         Game_4_12.SetActive(true);
         Game_4_8.SetActive(false);
+        currRatio = 12;
+        currCampgain = 15000;
     }
     [ContextMenu("15%")]
     public void StartGame_4_15()
@@ -150,9 +163,12 @@ public class GameManager : MonoBehaviour
         Game_4_15.SetActive(true);
         Game_4_12.SetActive(false);
         Game_4_8.SetActive(false);
+        currRatio = 15;
+        currCampgain = 25000;
     }
     public void Start_Game_5()
     {
+        canReceiveInputFromHardware = false;
         Game_1.SetActive(false);
         Game_2.SetActive(false);
         Game_3.SetActive(false);
@@ -218,5 +234,28 @@ public class GameManager : MonoBehaviour
     public void SetDealValue(int ratio)
     {
         textDealValue.text = "" + ratio;
+    }
+    public Submit submit;
+    public void SaveRecord()
+    {
+        submit.Code = currCode;
+        submit.Names = currName;
+        submit.Area = currArea;
+        submit.CampgainType = currCampgain;
+        submit.No_campgain = currSale;
+        submit.SalesmanName = currSalesName;
+        submit.Date = "";
+        int t = 0;
+        try
+        {
+            t = int.Parse(currShops);
+
+        }catch(Exception e)
+        {
+
+        }
+        submit.Shops = t;
+        submit.submit();
+
     }
 }

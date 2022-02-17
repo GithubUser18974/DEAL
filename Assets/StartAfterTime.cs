@@ -6,12 +6,20 @@ public class StartAfterTime : MonoBehaviour
 {
     public GameObject notDeal;
     // Start is called before the first frame update
-    void Start()
+   
+    private void OnEnable()
     {
-        Invoke("WTF", 5);
+        Invoke("WTF", 0.5f);
     }
-
-   void WTF()
+    private void OnDisable()
+    {
+        Invoke("WTFF", 0.5f);
+    }
+    void WTF()
+    {
+        notDeal.SetActive(true);
+    }
+    void WTFF()
     {
         notDeal.SetActive(false);
     }

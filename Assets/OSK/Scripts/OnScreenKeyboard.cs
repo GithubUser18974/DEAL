@@ -8,7 +8,6 @@ public class OnScreenKeyboard : MonoBehaviour {
     public InputField focus;
     public bool showNumeric = false;
     public Color32 textColor;
-    public Color32 mainColor;
     //public Color32 specialColor;
     public Color32 backgroundColor;
     public Sprite mainSprite;
@@ -25,7 +24,6 @@ public class OnScreenKeyboard : MonoBehaviour {
 	void Start () {
         ShowNumeric(showNumeric);
         SetTextColor(textColor);
-        SetMainColor(mainColor);
        // SetSpecialColor(specialColor);
         SetBackgroundColor(backgroundColor);
         SetMainSprite(mainSprite);
@@ -153,15 +151,15 @@ public class OnScreenKeyboard : MonoBehaviour {
         {
             if (!isActive)
             {
-                gameObject.GetComponent<Animator>().Rebind();
-                gameObject.GetComponent<Animator>().enabled = true;
+               // gameObject.GetComponent<Animator>().Rebind();
+               // gameObject.GetComponent<Animator>().enabled = true;
             }
         }
         else
         {
             if (isActive)
             {
-                gameObject.GetComponent<Animator>().SetBool("Hide", true);
+                //gameObject.GetComponent<Animator>().SetBool("Hide", true);
             }
         }
 
